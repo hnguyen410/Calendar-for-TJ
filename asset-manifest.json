@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Calendar-for-TJ/static/css/main.f3dde8f2.css",
+    "main.js": "/Calendar-for-TJ/static/js/main.3653ff67.js",
+    "static/js/453.09dc40fd.chunk.js": "/Calendar-for-TJ/static/js/453.09dc40fd.chunk.js",
+    "static/media/heo2.jpg": "/Calendar-for-TJ/static/media/heo2.acc6c250143c854f541a.jpg",
+    "index.html": "/Calendar-for-TJ/index.html",
+    "main.f3dde8f2.css.map": "/Calendar-for-TJ/static/css/main.f3dde8f2.css.map",
+    "main.3653ff67.js.map": "/Calendar-for-TJ/static/js/main.3653ff67.js.map",
+    "453.09dc40fd.chunk.js.map": "/Calendar-for-TJ/static/js/453.09dc40fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3dde8f2.css",
+    "static/js/main.3653ff67.js"
+  ]
+}
