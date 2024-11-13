@@ -1,3 +1,6 @@
+.custom-font {
+  font-family: "Gill Sans Extrabold", cursive;
+}
 .App {
   text-align: center;
 }
@@ -5,6 +8,28 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.app-background {
+  position: relative;              /* Set position to relative for pseudo-element */
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;                /* Prevent content from overflowing */
+}
+
+.app-background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('C:/Users/hnguy/OneDrive/Desktop/interactive-calendar/public/heo2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.9;                    /* Set opacity for the background image */
+  z-index: -1;                     /* Place pseudo-element behind the content */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +60,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* App.css */
+
+.workday {
+  background-color: red !important;
+  color: white;
+}
+
+.non-workday {
+  background-color: white !important;
+  color: black;
+}
+
+.hover-day {
+  background-color: red !important;
+  color: white;
+}
+/* App.css */
+
+.react-calendar__tile {
+  background-color: white; /* Default background color */
+  color: black; /* Default text color */
+
+}
+
+/* Hover effect: temporarily turn the tile red when hovered */
+.react-calendar__tile:hover {
+  background-color: red !important;
+  color: white !important;
+}
+.react-calendar__tile.workday {
+  background-color: #ffcccc !important; /* Pastel pink for workdays */
+  color: black !important;
+}
+
+.react-calendar__tile.dayoff {
+  background-color: #ccffcc !important; /* Green for days off */
+  color: black !important;
+}
+.react-calendar__tile.today {
+  font-weight: bold;
+  font-size: 1.3em;
 }
